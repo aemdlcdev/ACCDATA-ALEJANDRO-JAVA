@@ -1,0 +1,11 @@
+Modificaciones:
+
+1 Cambiar el entity factory para que use la cadena de conexion de objectdb ("objectdb://localhost/proyecto.odb;user=admin;password=admin")
+
+2 Eliminar el persistence.xml
+
+3 Cambiar el pom.xml
+
+4 Cambiar Collection por List
+
+5 Quitar lo que nos sugieran y column

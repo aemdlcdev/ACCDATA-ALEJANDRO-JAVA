@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Empleados>
+    <Empleado>
+        <identificador>1</identificador>
+        <cargo>Por especificar</cargo>
+        <salario>200050.0</salario>
+    </Empleado>
+    <Empleado>
+        <identificador>2</identificador>
+        <cargo>Por especificar</cargo>
+        <salario>1500.8</salario>
+    </Empleado>
+    <Empleado>
+        <identificador>6</identificador>
+        <cargo>Por especificar</cargo>
+        <salario>1200.2</salario>
+    </Empleado>
+</Empleados>

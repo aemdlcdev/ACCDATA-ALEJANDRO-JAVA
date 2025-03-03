@@ -1,0 +1,134 @@
+CREATE OR REPLACE TYPE DIRECCION AS OBJECT (
+    CALLE       VARCHAR2(25),
+    CIUDAD      VARCHAR2(20),
+    CODIGO_POST NUMBER(5)
+);
+
+CREATE OR REPLACE TYPE PERSONA AS OBJECT (
+    CODIGO    NUMBER,
+    NOMBRE    VARCHAR2(35),
+    DIREC     DIRECCION,
+    FECHA_NAC DATE
+);
+
+
+DECLARE
+    DIR DIRECCION := DIRECCION(
+                              NULL,
+                              NULL,
+                              NULL
+                     );
+    P   PERSONA := PERSONA(
+                        NULL,
+                        NULL,
+                        NULL,
+                        NULL
+                 );
+BEGIN
+    DIR.CALLE := 'La Mina, 3';
+    DIR.CIUDAD := 'Guadalajara';
+    DIR.CODIGO_POST := 19001;
+    P.CODIGO := 1;
+    P.NOMBRE := 'Juan';
+    P.DIREC := DIR;
+    P.FECHA_NAC := '10/11/1988';
+    DBMS_OUTPUT.PUT_LINE('nombre: '
+                          P.NOMBRE
+                          '* calle: '
+                         || P.DIREC.CALLE);
+
+END;
+
+create or replace type rectangulo as object (
+
+base number,
+altura number,
+area number,
+static procedure proc1 (ancho integer, alto integer),
+member procedure proc2 (ancho integer, alto integer),
+constructor function rectangulo (base number, altura number) return self as result
+
+);
+
+
+CREATE OR REPLACE TYPE BODY rectangulo AS
+    STATIC PROCEDURE proc1 (
+        ancho INTEGER,
+        alto  INTEGER
+    ) IS
+    BEGIN
+        INSERT INTO tablarec VALUES ( ancho * alto );
+
+        COMMIT;
+        dbms_output.put_line('Fila insertada');
+    END;
+
+    MEMBER PROCEDURE proc2 (
+        ancho INTEGER,
+        alto  INTEGER
+    ) IS
+    BEGIN
+        self.altura := alto;
+        self.base := ancho;
+        area := altura * base;
+        INSERT INTO tablarec VALUES ( area );
+
+        COMMIT;
+        dbms_output.put_line('Fila insertada');
+    END;
+
+    CONSTRUCTOR FUNCTION rectangulo (
+        base   NUMBER,
+        altura NUMBER
+    ) RETURN SELF AS RESULT IS
+    BEGIN
+        self.base := base;
+        self.altura := altura;
+        self.area := base * altura;
+        RETURN;
+    END;
+
+END;
+
+
+CREATE OR REPLACE TYPE BODY rectangulo AS
+    STATIC PROCEDURE proc1 (
+        ancho INTEGER,
+        alto  INTEGER
+    ) IS
+    BEGIN
+        INSERT INTO tablarec VALUES ( ancho * alto );
+
+        COMMIT;
+        dbms_output.put_line('Fila insertada');
+    END;
+
+    MEMBER PROCEDURE proc2 (
+        ancho INTEGER,
+        alto  INTEGER
+    ) IS
+    BEGIN
+        self.altura := alto;
+        self.base := ancho;
+        area := altura * base;
+        INSERT INTO tablarec VALUES ( area );
+
+        COMMIT;
+        dbms_output.put_line('Fila insertada');
+    END;
+
+    CONSTRUCTOR FUNCTION rectangulo (
+        base   NUMBER,
+        altura NUMBER
+    ) RETURN SELF AS RESULT IS
+    BEGIN
+        self.base := base;
+        self.altura := altura;
+        self.area := base * altura;
+        RETURN;
+    END;
+
+END;
+
+
+CREATE TABLE TABLAREC (VALOR INTEGER);

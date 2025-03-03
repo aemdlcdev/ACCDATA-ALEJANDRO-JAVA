@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<productos>
+        	
+    
+    <producto>
+                		
+        
+        <nombre>Leche</nombre>
+                		
+        
+        <cantidad>6</cantidad>
+                		
+        
+        <supermercado>Mercados Locales</supermercado>
+                	
+    
+    </producto>
+        	
+    
+    <producto>
+                		
+        
+        <nombre>Pan</nombre>
+                		
+        
+        <cantidad>2</cantidad>
+                		
+        
+        <supermercado>Mercados locales</supermercado>
+                	
+    
+    </producto>
+        
+    
+    <producto>
+                
+        <nombre>jamon</nombre>
+                
+        <cantidad>4.0</cantidad>
+                
+        <supermercado>dia</supermercado>
+            
+    </producto>
+    
+    <producto>
+        <nombre>ensalada</nombre>
+        <cantidad>2.0</cantidad>
+        <supermercado>aldi</supermercado>
+    </producto>
+</productos>

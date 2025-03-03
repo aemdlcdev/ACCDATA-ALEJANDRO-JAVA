@@ -1,0 +1,8 @@
+com\break4learning\proyectojpa2024\exceptions\NonexistentEntityException.class
+com\break4learning\proyectojpa2024\exceptions\PreexistingEntityException.class
+com\break4learning\proyectojpa2024\Empleados.class
+com\break4learning\proyectojpa2024\exceptions\IllegalOrphanException.class
+com\break4learning\proyectojpa2024\DepartamentosJpaController.class
+com\break4learning\proyectojpa2024\Departamentos.class
+com\break4learning\proyectojpa2024\ProyectoJPA2024.class
+com\break4learning\proyectojpa2024\EmpleadosJpaController.class
