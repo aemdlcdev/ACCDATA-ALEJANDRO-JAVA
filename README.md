@@ -52,7 +52,7 @@ Sigue estos pasos para clonar el repositorio y comenzar a explorar:
 - También, cambia `nombre-del-bloque` por el nombre del bloque específico que desees explorar en el repositorio.
 
 ## 📋 Requisitos Previos
-- Java JDK 17 o superior
+- Java JDK 23 (algunas cosas con versiones anteriores podrían no funcionar)
 - Maven (si es necesario para la gestión de dependencias)
 
 ## 💻 Ejemplo de Uso
