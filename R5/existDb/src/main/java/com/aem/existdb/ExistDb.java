@@ -69,8 +69,8 @@ public class ExistDb {
             server = new ExistXQDataSource();
             server.setProperty("serverName", "localhost");
             server.setProperty("port", "8080");
-            server.setProperty("user", "dam2");
-            server.setProperty("password", "dam2");
+            server.setProperty("user", "ejemplo");
+            server.setProperty("password", "ejemplo");
             
             conn = server.getConnection();
             System.out.println("[Traza] Conexion establecida con la base de datos");

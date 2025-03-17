@@ -78,7 +78,7 @@ public class ProyectoJPA2024 {
         /*--------------------------------------------------------------------------------------------------------------------------*/
         //PRUEBAS LECTURA DE REGISTRO BLOQUEANDO. Si llamamos a esperar() antes de hacer el commit en el siguiente método y luego intentamos 
         //modificar el registro desde Developer, no permitiría hacerlo ya que está bloqueado y daría el siguiente mensaje de error:
-        //Se ha producido un error al guardar los cambios en la tabla "DAM2"."DEPARTAMENTOS":
+        //Se ha producido un error al guardar los cambios en la tabla "EJEMPLO"."PLORTAMENTOS":
         //Fila 1: Datos confirmados en otra/la misma sesión; no se puede actualizar la fila.
         /*--------------------------------------------------------------------------------------------------------------------------*/
         

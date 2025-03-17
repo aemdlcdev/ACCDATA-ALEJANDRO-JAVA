@@ -6,9 +6,9 @@
     <class>com.aem.proyectojpa.Empleados</class>
     <properties>
       <property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@localhost:1521:FREE"/>
-      <property name="javax.persistence.jdbc.user" value="dam2"/>
+      <property name="javax.persistence.jdbc.user" value="ejemplo"/>
       <property name="javax.persistence.jdbc.driver" value="oracle.jdbc.OracleDriver"/>
-      <property name="javax.persistence.jdbc.password" value="dam2"/>
+      <property name="javax.persistence.jdbc.password" value="ejemplo"/>
     </properties>
   </persistence-unit>
 </persistence>

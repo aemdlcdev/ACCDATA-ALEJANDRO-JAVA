@@ -45,8 +45,8 @@ public class AccesooracleObdRel {
             
             Properties propiedades = new Properties();
             
-            propiedades.setProperty("user", "dam2");
-            propiedades.setProperty("password", "dam2");
+            propiedades.setProperty("user", "ejemplo");
+            propiedades.setProperty("password", "ejemplo");
   
             Class.forName(driver);
             conexion = DriverManager.getConnection(urlConnection, propiedades);

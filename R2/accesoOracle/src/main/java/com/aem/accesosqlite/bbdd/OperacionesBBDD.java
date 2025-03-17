@@ -65,8 +65,8 @@ public class OperacionesBBDD {
         try {
             
             this.propiedades = new Properties();
-            this.propiedades.setProperty("user", "examen");
-            this.propiedades.setProperty("password", "examen");
+            this.propiedades.setProperty("user", "ejemplo");
+            this.propiedades.setProperty("password", "ejemplo");
             this.propiedades.setProperty("bbdd", "free");
   
             Class.forName(driver);
