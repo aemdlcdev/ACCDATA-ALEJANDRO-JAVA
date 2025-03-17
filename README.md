@@ -36,17 +36,16 @@ Sigue estos pasos para clonar el repositorio y comenzar a explorar:
 
 1. **Clona el repositorio:**
    ```bash
-   git clone https://github.com/tu-usuario/acceso-a-datos.git
+   git clone https://github.com/aemdlcdev/ACCDATA-ALEJANDRO-JAVA
     ```
 2. **Navega a la carpeta del bloque que desees explorar:**
     ```bash
-   cd acceso-a-datos/nombre-del-bloque
+   cd ACCDATA-ALEJANDRO-JAVA/nombre-del-bloque
    ```
 3. **Abre los proyectos en tu IDE favorito y comienza a explorar 🎉**
     
 ### Notas:
-- Asegúrate de reemplazar `tu-usuario` con tu nombre de usuario de GitHub.
-- También, cambia `nombre-del-bloque` por el nombre del bloque específico que desees explorar en el repositorio.
+- Puedes usar github desktop o descargar como zip el repositorio para abrir los proyectos más fácil si aún no controlas git 😉
 
 ## 📋 Requisitos Previos
 - Java JDK 23 (algunas cosas con versiones anteriores podrían no funcionar)
