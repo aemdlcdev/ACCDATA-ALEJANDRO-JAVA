@@ -24,9 +24,6 @@ Este repositorio se divide en seis bloques principales, cada uno con un enfoque 
 ### 5️⃣ Bloque 5: Bases de Datos XML
 - Proyectos que muestran cómo trabajar con bases de datos en formato XML.
 
-### 6️⃣ Bloque 6: Programación de Componentes de Acceso a Datos
-- Desarrollo de componentes personalizados para el acceso a datos en aplicaciones Java.
-
 ## 📖 Cómo Contribuir
 Si deseas contribuir a este repositorio, no dudes en abrir un *issue* o enviar un *pull request*. ¡Todas las contribuciones son bienvenidas!
 
@@ -52,7 +49,7 @@ Sigue estos pasos para clonar el repositorio y comenzar a explorar:
 - También, cambia `nombre-del-bloque` por el nombre del bloque específico que desees explorar en el repositorio.
 
 ## 📋 Requisitos Previos
-- Java JDK 17 o superior
+- Java JDK 23 (algunas cosas con versiones anteriores podrían no funcionar)
 - Maven (si es necesario para la gestión de dependencias)
 
 ## 💻 Ejemplo de Uso
